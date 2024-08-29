@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="chat.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    
+
+    <header>
+        <br>
+        <div class="nav_bars">
+            <div>
+                <h3 style="color: white;">Portfolio</h3>
+            </div>
+            <div>
+                <!-- <ul class="nav justify-content-end" id="nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" id="links">Home</a>
+                    </li>
+                   <li class="nav-item">
+                      <a class="nav-link" href="#aboutme" id="links">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#skills" id="links">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact" id="links">Contact</a>
+                    </li>
+                  </ul> -->
+            </div>
+        </div>
+    </header>
+<br><br><br>
+    <section id="aboutme">
+      <div class="container">
+        <h2 style="color: white;">AJITH KUMAR R</h2>
+      <h4 style="color: white;"> < FULLSTACK <span style="color: rgb(0, 119, 255);">DEVELOPER /></span></h4>
+      <p style="color: white;">i am a skilled full-stack developer! proficient in building robust web appliction. coding na romba pudikkum</p>
+      </div>
+    </section>
+   
+    <hr>
+
+
+    <!-- chat bot -->
+    <div class="chat-bar-collapsible">
+      <button id="chat-button" type="button" class="collapsible">Any thing need ask me
+          <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+      </button>
+
+      <div class="content">
+          <div class="full-chat-block">
+              <!-- Message Container -->
+              <div class="outer-container">
+                  <div class="chat-container">
+                      <!-- Messages -->
+                      <div id="chatbox">
+                          <h5 id="chat-timestamp"></h5>
+                          <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                      </div>
+
+                      <!-- User input box -->
+                      <div class="chat-bar-input-block">
+                          <div id="userInput">
+                              <input id="textInput" class="input-box" type="text" name="msg"
+                                  placeholder="Tap 'Enter' to send a message">
+                              <p></p>
+                          </div>
+
+                          <div class="chat-bar-icons">
+                        
+                              <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                  onclick="sendButton()"></i>
+                          </div>
+                      </div>
+
+                      <div id="chat-bar-bottom">
+                          <p></p>
+                      </div>
+
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
+  </div>
+    <!-- chat bot -->
+<section class="aboutme" id="a">
+  
+  <h3>ABOUT ME</h3>
+
+ <!-- EDUCATION START-->
+ <h5 style="text-decoration: underline;text-decoration-color: rgb(0, 119, 255);text-decoration-thickness: 6px;">EDUCATION</h5>
+
+ <div class="education">
+     <div >
+      <div class="card bg-dark" style="width: 300px;">
+        <div class="card-header">
+          <p><i class="fa-solid fa-graduation-cap"></i><br>MCA</p>
+        </div>
+        <div class="card-body">
+          <p>UNIVERSITY OF MADRAS</p>
+          <br>
+          
+        </div>
+        <div class="card-footer">
+          
+            <p>Pursuing</p>
+            <p>.</p>
+            <p>Chennai</p>
+
+        </div>
+      </div>
+     </div>
+     <div >
+      <div class="card bg-dark" style="width: 300px;">
+        <div class="card-header">
+          <p><i class="fa-solid fa-graduation-cap"></i><br>BCA</p>
+        </div>
+        <div class="card-body">
+          <p>MADHA ARTS AND SCIENCE COLLEGE</p>
+        </div>
+        <div class="card-footer">
+          
+            <p><i class="fa-solid fa-calendar-days"></i>2018-2021</p>
+            <p>78.08%</p>
+            <p>Chennai</p>
+     
+        </div>
+      </div>
+     </div>
+     <div >
+      <div class="card bg-dark" style="width: 300px;">
+        <div class="card-header">
+          <p><i class="fa fa-school"></i><br>HIGHER SECONDARY</p>
+        </div>
+        <div class="card-body">
+          <p>ANJUHAM HIGHER SECONDARY SCHOOL</p>
+        </div>
+        <div class="card-footer">
+          
+          <p><i class="fa-solid fa-calendar-days"></i>2017-2018</p>
+          <p>58.42%</p>
+          <p>Chennai</p>
+          
+        </div>
+      </div>
+    </div>
+    <div >
+      <div class="card bg-dark" style="width: 300px;">
+        <div class="card-header">
+          <p><i class="fa fa-school"></i><br>SSLC</p>
+        </div>
+        <div class="card-body">
+          <p>ANJUHAM HIGHER SECONDARY SCHOOL</p>
+        </div>
+        <div class="card-footer">
+          
+            <p><i class="fa-solid fa-calendar-days"></i> 2015-2016</p>
+            <p>72.08%</p>
+            <p>Chennai</p>
+     
+        </div>
+      </div>
+     </div>
+ </div>
+ <!-- EDUCATION END-->
+
+ <!-- for mobile -->
+  <div  id="educationformobile">
+
+
+  </div>
+  <script src="education.js"></script>
+ <!-- for mobile -->
+<hr style="border: 1px solid blue;">
+ <!-- SKILLS START -->
+ <h5 style="text-decoration: underline;text-decoration-color: rgb(0, 119, 255);text-decoration-thickness: 6px;">SKILLS</h5>
+<div >
+  <div class="skills">
+    <div >
+     <div class="card"  style="width: 300px">
+       <div class="card-header">
+         <p>C</p>
+       </div>
+       <div class="card-body">
+         <h1 class="percentage">0</h1>
+       </div>
+       <div class="card-footer">
+        <p>PROJECTS</p>
+       </div>
+     </div>
+    </div>
+    <div >
+     <div class="card"  style="width: 300px;">
+       <div class="card-header">
+         <p>C++</p>
+       </div>
+       <div class="card-body">
+        <h1 class="percentage">0</h1>
+       </div>
+       <div class="card-footer">
+        <p>PROJECTS</p>
+       </div>
+     </div>
+    </div>
+    <div >
+     <div class="card" style="width: 300px;">
+       <div class="card-header">
+         <p>JAVA</p>
+       </div>
+       <div class="card-body">
+        <h1 class="percentage">0</h1>
+       </div>
+       <div class="card-footer">
+        <p>PROJETCS</p>
+       </div>
+     </div>
+   </div>
+  <div >
+     <div class="card" style="width: 300px;">
+       <div class="card-header">
+         <p>PYTHON</p>
+       </div>
+       <div class="card-body">
+        <h1 class="percentage">0</h1>
+       </div>
+       <div class="card-footer">
+         <p>PROJECTS</p> 
+       </div>
+     </div>
+  </div>
+  <div >
+     <div class="card" style="width: 300px;">
+       <div class="card-header">
+         <p>SPRING BOOT</p>
+       </div>
+       <div class="card-body">
+        <h1 class="percentage">0</h1>
+       </div>
+       <div class="card-footer">
+         <p>PROJECTS</p> 
+       </div>
+     </div>
+  </div>
+  <div >
+     <div class="card" style="width: 300px;">
+       <div class="card-header">
+         <p>REACT JS</p>
+       </div>
+       <div class="card-body">
+        <h1 class="percentage">0</h1>
+       </div>
+       <div class="card-footer">
+         <p>PROJECTS</p> 
+       </div>
+     </div>
+  </div>
+  <div >
+     <div class="card" style="width: 300px;">
+       <div class="card-header">
+         <p>NODE JS</p>
+       </div>
+       <div class="card-body">
+        <h1 class="percentage">0</h1>
+       </div>
+       <div class="card-footer">
+         <p>PROJECTS</p> 
+       </div>
+     </div>
+  </div>
+  <div >
+     <div class="card" style="width: 300px;">
+       <div class="card-header">
+         <p>DJANGO</p>
+       </div>
+       <div class="card-body">
+        <h1 class="percentage">0</h1>
+       </div>
+       <div class="card-footer">
+         <p>PROJECTS</p> 
+       </div>
+     </div>
+  </div>
+  <div >
+     <div class="card" style="width: 300px;">
+       <div class="card-header">
+         <p>MACHINE LERANING</p>
+       </div>
+       <div class="card-body">
+        <h1 class="percentage">0</h1>
+       </div>
+       <div class="card-footer">
+         <p>PROJECTS</p> 
+       </div>
+     </div>
+  </div>
+  <div >
+    <div class="card" style="width: 300px;">
+      <div class="card-header">
+        <p>MACHINE LERANING</p>
+      </div>
+      <div class="card-body">
+        <h1 class="percentage">0</h1>
+      </div>
+      <div class="card-footer">
+        <p>PROJECTS</p> 
+      </div>
+    </div>
+  </div>
+  <div >
+    <div class="card" style="width: 300px;">
+      <div class="card-header">
+        <p>PHP</p>
+      </div>
+      <div class="card-body">
+        <h1 class="percentage">0</h1>
+      </div>
+      <div class="card-footer">
+        <p>PROJECTS</p> 
+      </div>
+    </div>
+  </div>
+  <div >
+    <div class="card" style="width: 300px;">
+      <div class="card-header">
+        <p>LARAVEL</p>
+      </div>
+      <div class="card-body">
+        <h1 class="percentage">0</h1>
+      </div>
+      <div class="card-footer">
+        <p>PROJECTS</p> 
+      </div>
+    </div>
+  </div>
+  <div >
+    <div class="card" style="width: 300px;">
+      <div class="card-header">
+        <p>SQL</p>
+      </div>
+      <div class="card-body">
+        <h1 class="percentage">0</h1>
+      </div>
+      <div class="card-footer">
+        <p>PROJECTS</p> 
+      </div>
+    </div>
+  </div>
+  <div >
+    <div class="card" style="width: 300px;">
+      <div class="card-header">
+        <p>MONGO DB</p>
+      </div>
+      <div class="card-body">
+        <h1 class="percentage">0</h1>
+      </div>
+      <div class="card-footer">
+        <p>PROJECTS</p> 
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+ <!-- SKILLS END -->
+</section>
+
+<hr>
+
+<h5 style="text-decoration: underline;text-decoration-color: rgb(0, 119, 255);text-decoration-thickness: 6px;">WORK EXPERIENCE</h5>
+<div class="experience">
+  <div class="card bg-dark" style="width: 400px;">
+    <div class="card-header">
+      <p><i class="fa-solid fa-briefcase"></i></i><br>CSC</p>
+    </div>
+    <div class="card-body">
+      <p>TRAINER</p>
+      <p>Train and mentor the next generation of developers. Adept at designing comprehensive training programs, delivering engaging lectures, and providing hands-on support to foster practical skills. Committed to helping learners achieve their full potential by creating an interactive and supportive learning environment.</p>
+    </div>
+    <div class="card-footer">
+      <p>2021(Present)</p>
+      <p>Chennai</p>
+      <p></p>
+    </div>
+  </div>
+  <div class="card bg-dark" style="width: 400px;">
+    <div class="card-header">
+      <p><i class="fa-solid fa-briefcase"></i></i><br>IZEON INNOVATIVE PVT LTD</p>
+    </div>
+    <div class="card-body">
+      <p>FULLSTACK DEVELOPER</p>
+      <p> Designing, developing, and maintaining web applications.Proficient in both front-end and back-end technologies, with a strong focus on delivering high-quality, scalable, and efficient software solutions. Adept at collaborating with cross-functional teams, understanding client requirements, and translating them into technical specifications to achieve business goals.</p>
+    </div>
+    <div class="card-footer">
+      <p>2023(Present)</p>
+      <p>Chennai</p>
+    </div>
+  </div>
+  <div class="card bg-dark" style="width: 400px;">
+    <div class="card-header">
+      <p><i class="fa-solid fa-briefcase"></i></i><br></p>
+    </div>
+    <div class="card-body">
+      <p></p>
+      <p>MY JOURNEY WILL CONTINUE!</p>
+      <br>
+    </div>
+    <div class="card-footer">
+      <p></p>
+      <p></p>
+    </div>
+  </div>
+</div>
+    
+<!-- for mobile exp -->
+
+<div  id="expformobile">
+
+
+</div>
+
+<hr>
+<div class="contact" style="height: 300px;">
+  <h5 style="text-decoration: underline;text-decoration-color: rgb(0, 119, 255);text-decoration-thickness: 6px;">CONTACT</h5>
+  <div class="row">
+    <div class="col-lg-3">
+      <p><i class="fa-solid fa-phone"></i>7358629697</p>
+    </div>
+    <div class="col-lg-3">
+      <p><i class="fa-solid fa-envelope"></i> <a href="mailto:ajithruflex1210@gmail.com" style="color: #fff;text-decoration: none;">ajithruflex1210@gmail.com</a></p>
+    </div>
+    <div class="col-lg-3">
+      <p><i class="fa-brands fa-github"></i> <a href="mailto:ajithruflex1210@gmail.com" style="color: #fff;text-decoration: none;">ajithruflex1210@gmail.com</a></p>
+    </div>
+    <div class="col-lg-3">
+      <p><i class="fa-brands fa-youtube"></i></i> <a href="mailto:ajithruflex1210@gmail.com" style="color: #fff;text-decoration: none;">ajithruflex1210@gmail.com</a></p>
+    </div>
+  </div>
+</div>
+<script src="works.js"></script>
+<script src="chat.js"></script>
+<script src="responses.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- for mobile exp -->
+</body>
+</html>
