@@ -78,7 +78,7 @@ header{
 }
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
     
     #sidebarbutton{
         display: block;
