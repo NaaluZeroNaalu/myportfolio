@@ -22,20 +22,20 @@ let c = setInterval(()=>{
     }else{
         
         clearInterval(c)
-        per[0].innerHTML = 59;
-        per[1].innerHTML = 76;
-        per[2].innerHTML = 87;
-        per[3].innerHTML = 86;
-        per[4].innerHTML = 95;
-        per[5].innerHTML = 57;
-        per[6].innerHTML = 89;
-        per[7].innerHTML = 80;
-        per[8].innerHTML = 58;
-        per[9].innerHTML = 76;
-        per[10].innerHTML = 76;
-        per[11].innerHTML = 90;
-        per[12].innerHTML = 78;
-        per[13].innerHTML = 95;
+        per[0].innerHTML = 59+"%";
+        per[1].innerHTML = 76+"%";
+        per[2].innerHTML = 87+"%";
+        per[3].innerHTML = 86+"%";
+        per[4].innerHTML = 95+"%";
+        per[5].innerHTML = 57+"%";
+        per[6].innerHTML = 89+"%";
+        per[7].innerHTML = 80+"%";
+        per[8].innerHTML = 58+"%";
+        per[9].innerHTML = 81+"%";
+        per[10].innerHTML = 76+"%";
+        per[11].innerHTML = 90+"%";
+        per[12].innerHTML = 78+"%";
+        per[13].innerHTML = 95+"%";
         
     }
 },50)
