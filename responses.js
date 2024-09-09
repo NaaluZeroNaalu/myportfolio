@@ -1,20 +1,23 @@
 function getBotResponse(input) {
     
     // Simple responses
-    if (input == "hi" || input == "HI" || input == "Hi") {
+    if (input.toLowerCase() == "hi" ) {
         return "hi;)";
-    } else if (input == "who made this project" || input == "who made this website" || input == "Who made this project" || input == "Who made this website") {
+    } else if (input.toLowerCase() == "who made this project" ) {
         return "this project was made by ajith kumar yeah its me of course";
     }else if(input == "what is your age" || input == "What is your age" || input == "Your age" || input == "your age" || input == "What is your age ajith" || input == "what is your age ajith" || input == "your age?" || input == "Your age?"){
 
         const date = new Date()
         return date.getFullYear() - 2000 
-    }else if(input == "you know reactjs" || input == "You know react js" || input == "you know java" || input == "You know java"){
+    }else if(input.toLowerCase() == "you know reactjs" || input.toLowerCase() == "You know react js" || input.toLowerCase() == "you know java" || input.toLowerCase() == "You know java"){
 
         return "yes i know"
-    }else if(input == "can i get your number" || input == "your number" || input == "Your number" || input == "Your number?" || input == "Your contact no" || input == "your contact no"){
+    }else if(input.toLowerCase() == "can i get your number" || input.toLowerCase() == "your number"  || input.toLowerCase() == "Your number?" || input.toLowerCase() == "your contact no" || input.toLowerCase() == "what is your number"){
 
         return 7358629697
+    }else if(input.toLowerCase() == "What is your qualification" || input.toLowerCase() == "What is your qualification?"){
+
+        return "MCA"
     }
      else {
         return "Sorry i don't understand";
