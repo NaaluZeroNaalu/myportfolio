@@ -9,7 +9,7 @@ function getBotResponse(input) {
 
         const date = new Date()
         return date.getFullYear() - 2000 
-    }else if(input.toLowerCase().trim() == "you know reactjs" || input.toLowerCase().trim() == "You know react js" || input.toLowerCase().trim() == "you know java" || input.toLowerCase().trim() == "You know java"){
+    }else if(input.toLowerCase().trim() == "you know reactjs" || input.toLowerCase().trim() == "You know react js" || input.toLowerCase().trim() == "you know java" || input.toLowerCase().trim() == "You know java" || input.toLowerCase().trim() == "You know bootstrap"){
 
         return "yes i know"
     }else if(input.toLowerCase().trim() == "can i get your number" || input.toLowerCase().trim() == "your number"  || input.toLowerCase().trim() == "Your number?" || input.toLowerCase().trim() == "your contact no" || input.toLowerCase().trim() == "what is your number"){
@@ -96,7 +96,7 @@ function getBotResponse(input) {
         return "2LPA"
     }else if(input.toLowerCase().includes("expected salary".toLowerCase())){
 
-        return "3 - 4LPA !"
+        return "3 - 4LPA"
     }else if(input.toLowerCase().includes("love you".toLowerCase())){
 
         return "love you too... !"
@@ -106,9 +106,18 @@ function getBotResponse(input) {
     }else if(input.toLowerCase().includes("who are you".toLowerCase())){
 
         return "Me or who created me"
-    }else if(input.toLowerCase().includes("you".toLowerCase())){
+    }else if(input.toLowerCase().includes("who are you".toLowerCase())){
 
         return "I’m an AI bot created with a custom dataset,i dont use any predefined APIs like Chatgpt <br> i am not more intellegent like Chatgpt, in simple term i am a weak AI ;) but oru naal na nalla AI ya varuvean, What would you like to know or discuss today?"
+    }else if(input.toLowerCase().includes("you know tamil".toLowerCase()) || input.toLowerCase().includes("tamil theriyuma".toLowerCase())){
+
+        return "Konjam konjam theriyum"
+    }else if(input.toLowerCase().includes("currently working".toLowerCase())){
+
+        return "Yes i am currently working in IZEON INNOVATIVE PVT LTD has a FULLSTACK DEVELOPER"
+    }else if(input.toLowerCase().includes("skills".toLowerCase())){
+
+        return "C<br>C++<br>JAVA<br>PYTHON<br>REACT JS<br>NODE JS<br>EXPRESS JS<br>JSP<br>SPRING BOOT<br>DJANGO<br>MACHINE LEARNING <br>BOOTDTRAP<br>PHP<br>LARAVEL<br>MONGO DB<br>SQL<br>and also data analyst technologies like POWER BI etc"
     }
      else {
         return "Sorry i don't understand";
