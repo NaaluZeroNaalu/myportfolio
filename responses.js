@@ -108,13 +108,19 @@ function getBotResponse(input) {
         return "Me or who created me"
     }else if(input.toLowerCase().includes("who are you".toLowerCase())){
 
-        return "I’m an AI bot created with a custom dataset,i dont use any predefined APIs like Chatgpt <br> i am not more intellegent like Chatgpt, in simple term i am a weak AI ;) but oru naal na nalla AI ya varuvean, What would you like to know or discuss today?"
+        return "I’m an AI bot created with a custom dataset,i dont use any predefined APIs like Chatgpt <br> i am not more intellegent like Chatgpt, in simple term i am a weak AI ;) but oru naal na nalla AI ya varuvean, What would you like to know about ajith feel free to ask"
     }else if(input.toLowerCase().includes("you know tamil".toLowerCase()) || input.toLowerCase().includes("tamil theriyuma".toLowerCase())){
 
         return "Konjam konjam theriyum"
     }else if(input.toLowerCase().includes("currently working".toLowerCase())){
 
-        return "Yes i am currently working in IZEON INNOVATIVE PVT LTD has a FULLSTACK DEVELOPER"
+        return "Yes i am currently working in IZEON INNOVATIVE PVT LTD has a FULLSTACK DEVELOPER and working has TRAINER IN CSC INSTITUTION"
+    }else if(input.toLowerCase().includes("role in csc".toLowerCase())){
+
+        return "Train and mentor the next generation of developers. Adept at designing comprehensive training programs, delivering engaging lectures, and providing hands-on support to foster practical skills. Committed to helping learners achieve their full potential by creating an interactive and supportive learning environment."
+    }else if(input.toLowerCase().includes("role in izeon innovative private limited".toLowerCase())){
+
+        return "Designing, developing, and maintaining web applications.Proficient in both front-end and back-end technologies, with a strong focus on delivering high-quality, scalable, and efficient software solutions. Adept at collaborating with cross-functional teams, understanding client requirements, and translating them into technical specifications to achieve business goals"
     }else if(input.toLowerCase().includes("skills".toLowerCase())){
 
         return "C<br>C++<br>JAVA<br>PYTHON<br>REACT JS<br>NODE JS<br>EXPRESS JS<br>JSP<br>SPRING BOOT<br>DJANGO<br>MACHINE LEARNING <br>BOOTDTRAP<br>PHP<br>LARAVEL<br>MONGO DB<br>SQL<br>and also data analyst technologies like POWER BI etc"
