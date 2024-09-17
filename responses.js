@@ -106,7 +106,7 @@ function getBotResponse(input) {
     }else if(input.toLowerCase().includes("who are you".toLowerCase())){
 
         return "Me or who created me"
-    }else if(input.toLowerCase().includes("who are you".toLowerCase())){
+    }else if(input.toLowerCase().includes("who are you".toLowerCase()) || input.toLowerCase().startsWith("you".toLowerCase()) ){
 
         return "I’m an AI bot created with a custom dataset,i dont use any predefined APIs like Chatgpt <br> i am not more intellegent like Chatgpt, in simple term i am a weak AI ;) but oru naal na nalla AI ya varuvean, What would you like to know about ajith feel free to ask"
     }else if(input.toLowerCase().includes("you know tamil".toLowerCase()) || input.toLowerCase().includes("tamil theriyuma".toLowerCase())){
@@ -124,8 +124,39 @@ function getBotResponse(input) {
     }else if(input.toLowerCase().includes("skills".toLowerCase())){
 
         return "C<br>C++<br>JAVA<br>PYTHON<br>REACT JS<br>NODE JS<br>EXPRESS JS<br>JSP<br>SPRING BOOT<br>DJANGO<br>MACHINE LEARNING <br>BOOTDTRAP<br>PHP<br>LARAVEL<br>MONGO DB<br>SQL<br>and also data analyst technologies like POWER BI etc"
-    }
-     else {
+    }else if(input.toLowerCase().includes("word theriyum unakku".toLowerCase()) || input.toLowerCase().includes("words you in tamil".toLowerCase())){
+
+        return "vanakkam<br>saaptingala<br>enna panringa<br>epdi irrukinga"
+
+    }else if(input.toLowerCase().includes("saapitiya".toLowerCase()) || input.toLowerCase().includes("saaptingala".toLowerCase()) || input.toLowerCase().includes("saaptaacha".toLowerCase())){
+
+        return "enaala epdi saapda mudiyum na oru software aachea anyway naa saapta neenga saaptingala?"
+
+    }else if(input.toLowerCase().includes("saapta".toLowerCase()) || input.toLowerCase().includes("hmm saaptaachu".toLowerCase()) || input.toLowerCase().includes("yep".toLowerCase())){
+
+        return "oh super nice"
+
+    }else if(input.toLowerCase().includes("ethaachum keakanuma".toLowerCase()) || input.toLowerCase().includes("any questions".toLowerCase()) || input.toLowerCase().includes("need to ask anything".toLowerCase())){
+
+        return "nope"
+
+    }else if(input.toLowerCase().includes("ajith epdi".toLowerCase()) || input.toLowerCase().includes("ajith pathi konjam soolu".toLowerCase()) || input.toLowerCase().includes("ajith yaaru".toLowerCase())){
+
+        return "avar tha enna create pannathu, thanga maan manusan"
+
+    }else if(input.toLowerCase().includes("tell about ajith".toLowerCase()) || input.toLowerCase().includes("about ajith".toLowerCase()) || input.toLowerCase().includes("who is ajith".toLowerCase())){
+
+        return "ajith is a person who created me"
+
+    }else if(input.toLowerCase().includes("oh".toLowerCase()) || input.toLowerCase().includes("kk".toLowerCase()) || input.toLowerCase().includes("oh ok".toLowerCase())){
+
+        return "hmm"
+
+    }else if(input.toLowerCase().includes("can i get your source code".toLowerCase()) || input.toLowerCase().includes("your source code".toLowerCase()) || input.toLowerCase().includes("your code".toLowerCase()) || input.toLowerCase().includes("i need a source code of you".toLowerCase())){
+
+        return "nope i dont have permisson for that because i dont know where is my source code <br><img src='images/2.png' height='100' width='100' >"
+
+    }else {
         return "Sorry i don't understand";
     }
 
